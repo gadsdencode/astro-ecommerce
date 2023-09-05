@@ -1,3 +1,4 @@
+import Index from '../../pages/index.astro';
 import ProductRating from '../reviews/reviewRating'
 import ProductGallery from './productGallery'
 import ProductSizes from './productSizes'
@@ -81,7 +82,7 @@ export default function ProductOverview({
              <h6>Benefits</h6>
               <ul className="text-sm">
               {highlights.map(highlight => 
-                <li className="mb-2">{highlight}</li>
+                <li key={'Index'} className="mb-2">{highlight}</li>
               )}
               </ul>
            </>

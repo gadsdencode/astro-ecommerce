@@ -10,7 +10,7 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "strict": true,
-    "importsNotUsedAsValues": "error",
+    "ignoreDeprecations": "5.0",
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   },
